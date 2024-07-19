@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Practice{
+    public static void main(String args[]){
+        Scanner i= new Scanner(System.in);
+        System.out.print("Enter first number : ");
+        int a = i.nextInt();
+        System.out.print("Enter second number : ");
+        int b = i.nextInt();
+        int sum = a+b;
+        System.out.println("The sum of two numbers is : "+sum);
+        if (sum>=0){
+            System.out.println(sum + " is positive number ");
+        }
+        else{
+            System.out.println(sum+" is negative number");
+        }
+    }
+}
